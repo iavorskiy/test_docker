@@ -16,3 +16,4 @@ def test_hosts_file(host):
 def test_service_is_running(host):
     assert host.service('nginx').is_running
 
+    
